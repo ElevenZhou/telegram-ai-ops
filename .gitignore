@@ -1,0 +1,21 @@
+# 第三方源码快照，不随本仓库提交（约 500M，另有各自许可证）
+# 保留目录说明 README，排除所有克隆进来的项目
+/references/repos/*
+!/references/repos/README.md
+
+# 密钥与环境
+.env
+.env.*
+*.key
+*.pem
+secrets/
+msg.json
+
+# 运行时
+__pycache__/
+*.pyc
+node_modules/
+*.log
+.DS_Store
+.idea/
+.vscode/
