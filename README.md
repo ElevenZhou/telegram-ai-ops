@@ -58,6 +58,10 @@ AI 建议回复                                          用户分层、转化�
     └── repos/                 # 第三方源码快照（.gitignore，不提交）
 ```
 
+## 许可证
+
+[MIT](LICENSE)。本仓库自身代码和文档以 MIT 开源；`references/repos/` 下的第三方项目各有独立许可证，不在本许可证范围内。
+
 ## 下一步
 
 1. Docker 隔离环境试跑 TGhost 和 Chatwoot，只接官方 bot token。
